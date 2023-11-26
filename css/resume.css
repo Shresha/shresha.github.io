@@ -1,0 +1,187 @@
+    body {
+        background-color: black;
+        font-family: "Poppins", 'Arial';
+        margin: 0;
+        font-size: 14px;
+    }
+    .resume-rectangle {
+        /* background-color: white; */
+        background-image: url('//images/stars.png');
+        margin-bottom: 10%;
+    }
+
+
+    .navbar-brand {
+        font-weight: bold; /* Adjust the font weight */
+        color: rgb(255, 255, 255, 1); /* Adjust the text color to be brighter */
+    }
+
+    .navbar-nav .nav-link a {
+        color:rgb(255, 255, 255, 1); /* Set the initial color to white or any other color you prefer */
+        font-weight: 500; /* Set the font weight to lighter or adjust as needed */
+        font-size: 18px;
+        transition: color 0.3s ease; /* Add a smooth transition effect */
+    }
+    
+    /* #nav-link a::before {
+        content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #ffa500; 
+    visibility: hidden;
+    transform: scaleX(0); 
+    transition: transform 0.3s ease, visibility 0.3s ease;  
+    }
+
+   #nav-link a:hover::before {
+    visibility: visible; 
+    transform: scaleX(1);
+    } */
+
+  
+
+    #nav-link {
+        font-size: 18px;
+        color: rgb(255, 255, 255, 1);
+    }
+
+   
+    
+   /* .nav-link {
+        color: #fff; 
+        font-weight: bold; 
+        transition: color 0.1s; 
+    }
+    
+    .nav-link:hover {
+        color: orange; 
+        text-decoration: underline;
+    }
+     */
+
+    .topbar-link {
+        color: rgb(255, 255, 255, 1);
+    }
+    #ftco-navbar {
+        color: rgb(255, 255, 255, 1) !important;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: rgba(0, 0, 0, 1);
+        z-index: 1000; /* Adjust the z-index as needed */
+    }
+/* 
+    #navbar-placeholder {
+        margin-top: 80px; } */
+    
+    /* #ftco-navbar {
+    color: rgb(255, 255, 255, 1);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    }
+
+    #ftco-nav {
+    font-size: 18px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 900;
+    }
+    /*
+    .navbar-brand {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    /* text-transform: uppercase; */
+    /* display: inline-block; */
+
+    /* } */
+
+    #cover-letter-text {
+        color: rgb(255, 255, 255, 1);
+    }
+
+    .resume-container {
+        max-width: 1200px;
+        margin-top: 1%;
+        padding: 40px;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        
+        align-content: center;
+        color: black;
+        background-color: rgba(255,255,255, 1);
+        background-image: url('//images/stars.png');
+        background-size: cover;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        border: none;
+    }
+
+    th, td {
+        padding: 0;
+        text-align: left;
+        border:none;
+        
+    }
+    ul.education-list {
+        padding: 0;
+        margin: 0;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+
+    th:first-child, td:first-child {
+        width: 60%;
+        text-align: left;
+    }
+
+    th:nth-child(2), td:nth-child(2) {
+        width: 40%;
+        text-align: right;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    header p {
+        margin: 5px 0;
+    }
+
+    section {
+        margin-top: 30px;
+    }
+
+    h2 {
+        border-bottom: 2px solid black;
+        padding-bottom: 5px;
+    }
+
+    .entry {
+        margin-bottom: 20px;
+        /* color: black; */
+    }
+
+    .sticky-nav {
+        position: sticky;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
