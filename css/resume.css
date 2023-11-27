@@ -22,8 +22,13 @@
         font-size: 18px;
         transition: color 0.3s ease; /* Add a smooth transition effect */
     }
-    
-    /* #nav-link a::before {
+    /*
+    .description-text {
+        font-size: 12px;
+        color: rgb(255, 255, 255, 1) !important;
+    }
+
+     #nav-link a::before {
         content: "";
     position: absolute;
     bottom: 0;
